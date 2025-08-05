@@ -18,7 +18,7 @@ app.use("/users", userRouter)
 
 
 app.get("/", (req, res) => {
-    res.send("Hello Express!")
+    res.send("Hello woojin!")
 });
 
 app.listen(PORT, () => {
