@@ -18,8 +18,8 @@ mongoose.connect(process.env.MONGO_URI)
 
 
 
-const characterRouter = require('./routes/character')
-app.use('/api/char', characterRouter)
+const postRouter = require('./routes/post')
+app.use('/api/char', postRouter)
 
 
 

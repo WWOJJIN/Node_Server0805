@@ -2,7 +2,7 @@
 
 const mongoose = require("mongoose");
 
-const characterSchema = new mongoose.Schema(
+const postSchema = new mongoose.Schema(
     {
         name: {
             type: String,
@@ -23,6 +23,6 @@ const characterSchema = new mongoose.Schema(
     }
 );
 
-const Character = mongoose.model("Character", characterSchema);
+const Post = mongoose.model("Post", postSchema);
 
-module.exports = Character;
+module.exports = Post;
